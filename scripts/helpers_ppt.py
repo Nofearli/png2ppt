@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-helpers_ppt.py —— paper-redraw-pptx 通用助手库
+helpers_ppt.py —— png2ppt 通用助手库
 坐标惯例：调用方以原图像素 / 100 = 英寸传参（In(x) 吃英寸）。
 调色板：set_palette({...}) 换成本项目采样色；rgb("key") 或 rgb("#RRGGBB") 均可。
 """

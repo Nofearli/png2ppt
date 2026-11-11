@@ -1,4 +1,4 @@
-# paper-redraw-pptx
+# png2ppt
 
 把**论文框架图 / 示意图截图**转成**原生可编辑的 PowerPoint**——不是把图片贴进 PPT，而是把文字、卡片、箭头、表格、公式全部重建为 PowerPoint 原生形状；原图里的精致 3D 渲染图标（小车、芯片、器官、仪器…）从原图裁剪嵌入并羽化融合，观感与原图几乎一致。
 
@@ -36,9 +36,9 @@
 作为 Agent skill（Claude Code / ZCode 等）：
 
 ```bash
-git clone https://github.com/Nofearli/paper-redraw-pptx.git
+git clone https://github.com/Nofearli/png2ppt.git
 mkdir -p ~/.agents/skills   # 或你的技能目录（如 ~/.claude/skills）
-cp -r paper-redraw-pptx ~/.agents/skills/
+cp -r png2ppt ~/.agents/skills/
 ```
 
 依赖：
